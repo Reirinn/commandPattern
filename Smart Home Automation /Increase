@@ -1,0 +1,13 @@
+package commandPattern;
+
+public class Increase {
+	private Device device;
+
+    public Increase(Device device){
+        this.device = device;
+    }
+   
+    public String execute() {
+        return device.increaseTemperature();
+    }
+}
