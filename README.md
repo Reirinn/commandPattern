@@ -17,4 +17,5 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
 
 # Class Diagram
 
-![image](https://github.com/Reirinn/commandPattern/assets/142465054/90ca0e23-6f0f-440d-9c44-d546e4362247)
+![image](https://github.com/Reirinn/commandPattern/assets/142465054/121c796e-9826-4222-b5e3-00b910e85fe9)
+
