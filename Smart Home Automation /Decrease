@@ -1,0 +1,14 @@
+package commandPattern;
+
+public class Decrease {
+	private Device device;
+
+    public Decrease(Device device){
+        this.device = device;
+
+    }
+   
+    public String execute() {
+        return device.decreaseVolume();
+    }
+}
