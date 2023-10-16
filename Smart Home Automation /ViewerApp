@@ -1,0 +1,28 @@
+package commandPattern;
+
+import java.util.Scanner;
+
+public class ViewerApp {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner (System.in);
+		Device device = new Device();
+		CentralHub ch = new CentralHub();
+		
+		
+		TurnOn turnon = new TurnOn(device);
+		System.out.println(turnon.execute());
+		
+		TurnOff turnoff = new TurnOff(device);
+		System.out.println(turnoff.execute());
+		
+		Increase increase = new Increase(device);
+		System.out.println(increase.execute());
+		
+		Decrease decrease = new Decrease(device);
+		System.out.println(decrease.execute());
+		
+	}
+
+}
